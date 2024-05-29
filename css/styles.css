@@ -9,10 +9,7 @@
 }
 
 /* Fin Reset */
-/* Inicio Variables */
-/* Fin Variables */
-/* Inicio Mixin */
-/* Fin Mixin */
+/* inicio global */
 nav {
   padding: 10px;
   justify-content: center;
@@ -50,6 +47,7 @@ h2:hover {
   height: 100%;
 }
 
+/* fin global */
 /* Inicio keyframes */
 @keyframes giroTitulo {
   20% {

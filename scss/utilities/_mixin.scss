@@ -1,4 +1,4 @@
-/* Inicio Mixin */
+
 @mixin bloqueFlex ($flex-d, $align-i, $justify-c) {
     display: flex;
     flex-direction: $flex-d;
@@ -14,4 +14,4 @@
     font-size: $fsize;
     color: $fcolor;
 }
-/* Fin Mixin */
+
