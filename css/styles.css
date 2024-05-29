@@ -243,6 +243,7 @@ main .mainPerfil div .imagenPerfil {
 main .mainPerfil div .parrafoInfo {
   margin: 20px;
   text-align: justify;
+  font-size: 18px;
 }
 main .mainPerfil div h2 {
   padding-top: 20px;
