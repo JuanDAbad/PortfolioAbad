@@ -1,0 +1,50 @@
+
+header {
+    @include bloqueFlex(column, center, center);
+    background-color: $colorHeader;
+    flex-wrap: wrap;
+
+    img.imagenEncabezado {
+        width: 15%;
+        position: relative;
+        top: 10px;
+        border-radius: 100px;
+    }
+
+    section.redes {
+        @include bloqueFlex(row, center, space-around);
+        width: 200px;
+        margin-right: 10px;
+        position: absolute;
+        top: 20px;
+        right: 10px;
+    }
+
+    nav.contenedor-navegador{
+        width: 100%;
+
+        div {
+            div{
+                div.navegador {
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-around;
+
+                    a.navFont {
+                        font-family: $estiloNombrePrincipal;
+                        font-size: 35px;
+                        font-weight: 1000;
+                    }
+                    a.navFont:hover{
+                        color: $colorResalto;
+                    }
+                    a.current {
+                        font-weight: bold;
+                        color: #e36b2c;
+                    }
+
+                }
+            }
+        }
+    }
+}

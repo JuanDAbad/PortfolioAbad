@@ -1,0 +1,10 @@
+footer {
+  @include bloqueFlex(row, center, center);
+  background-color: rgba(150, 150, 150, 0.849);
+  padding: 20px;
+
+  .piePagina {
+    text-align: center;
+    font-size: 20px;
+  }
+}

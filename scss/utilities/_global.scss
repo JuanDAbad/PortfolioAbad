@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Pragati+Narrow:wght@400;700&family=Staatliches&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  padding: 10px;
+  justify-content: center;
+  align-content: center;
+}
+
+h1 {
+  @include estiloLetra(
+    $estiloNombrePrincipal,
+    800,
+    normal,
+    70px,
+    rgb(19, 30, 90)
+  );
+  display: flex;
+  margin: 20px;
+}
+
+h2 {
+  @include estiloLetra($estiloH2, 400, normal, 40px, black);
+  margin-top: 20px;
+  margin-bottom: 10px;
+  transition: font-size 0.5s;
+}
+
+h2:hover {
+  font-size: 50px;
+}
+
+.imgGaleria {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,120 @@
+@media screen and (min-width: 701px) and (max-width: 1024px) {
+    main section.destacados section.galeria {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      grid-template-areas:
+        "box1 box1 box2 box2"
+        "box3 box3 box4 box4"
+        "box5 box5 box6 box6";
+      height: auto;
+      width: 95vw;
+      margin: auto;
+    }
+  
+    header img.imagenEncabezado {
+      width: 20%;
+      position: relative;
+      top: 10px;
+      border-radius: 100px;
+    }
+  
+    h1 {
+      font-family: "Amatic SC", sans-serif;
+      font-weight: 800;
+      font-style: normal;
+      color: rgb(19, 30, 90);
+      font-size: 60px;
+      display: flex;
+      margin: 20px;
+    }
+  
+    main section.slider div .miClaseTxtSecund h3.tituloSlider  {
+      font-size: 30px;
+    }
+  
+  }
+  
+  @media screen and (max-width: 700px) {
+    main section.destacados section.galeria {
+      grid-template-columns: 1fr;
+      grid-template-rows: auto;
+      grid-template-areas:
+        "box1"
+        "box2"
+        "box3"
+        "box4"
+        "box5"
+        "box6";
+      row-gap: 10px;
+      height: auto;
+    }
+  
+    header section.redes {
+      width: 100px;
+      margin-right: 10px;
+      position: absolute;
+      top: 20px;
+      right: 10px;
+      display: flex;
+      justify-content: space-around;
+    }
+  
+    header img.imagenEncabezado {
+      width: 25%;
+      position: relative;
+      top: 10px;
+      border-radius: 100px;
+    }
+  
+    h1 {
+      font-family: "Amatic SC", sans-serif;
+      font-weight: 800;
+      font-style: normal;
+      color: rgb(19, 30, 90);
+      font-size: 40px;
+      display: flex;
+      margin: 20px;
+    }
+  
+    h2 {
+      font-size: 30px;
+    }
+  
+    main section.slider div .miClaseTxtSecund h3.tituloSlider  {
+      font-size: 30px;
+    }
+  }
+  
+  @media screen and (min-width: 1025px) and (max-width: 1400px) {
+    main section.destacados section.galeria {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(4, 1fr);
+      grid-template-areas:
+        "box1 box2 box3 box3"
+        "box4 box4 box3 box3"
+        "box4 box4 box3 box3"
+        "box5 box5 box6 box6";
+      height: auto;
+      width: 95vw;
+      margin: auto;
+    }
+  }
+  
+  @media screen and (min-width: 1401px) {
+    main section.destacados section.galeria {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(4, 1fr);
+      grid-template-areas:
+        "box1 box2 box3 box3"
+        "box4 box4 box3 box3"
+        "box4 box4 box3 box3"
+        "box5 box5 box6 box6";
+      height: auto;
+      width: 95vw;
+      margin: auto;
+    }
+  }
+  

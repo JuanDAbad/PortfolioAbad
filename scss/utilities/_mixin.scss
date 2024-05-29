@@ -1,0 +1,16 @@
+@mixin bloqueFlex ($flex-d, $align-i, $justify-c) {
+    display: flex;
+    flex-direction: $flex-d;
+    align-items: $align-i;
+    justify-content: $justify-c;
+   
+}
+
+@mixin estiloLetra ($ffamily, $fweight, $fstyle, $fsize, $fcolor){
+    font-family: $ffamily;
+    font-weight: $fweight;
+    font-style: $fstyle;
+    font-size: $fsize;
+    color: $fcolor;
+
+}

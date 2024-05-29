@@ -11,7 +11,7 @@
       src="https://kit.fontawesome.com/29c3be7601.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="../styles/styles.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
     <title>Jotade - Contacto</title>
   </head>
   <body>
@@ -68,12 +68,11 @@
     </header>
 
     <main>
-      <img
-        src="../imgs/imagen-portada.png"
-        alt="imagen patron tematica correo"
-      />
-
-      <section>
+    <div class="divisorContacto">
+      <img class="imgContacto" src="../imgs/imagen-portada.png" alt="imagen patron tematica correo"/>
+    </div> 
+      
+    <section class="escribeme">
         <h2>Escríbeme</h2>
         <form action="">
           <div>
@@ -87,24 +86,19 @@
           </div>
           <div>
             <label>Correo</label>
-            <input type="email" name="" id="" placeholder="Ingrese su mail" />
+            <input type="email" name="" id="email" placeholder="Ingrese su e-mail" />
           </div>
-          <label>Mensaje</label>
+          <label class="mensaje">Mensaje</label>
           <div>
-            <textarea name="" id="" cols="30" rows="5"></textarea>
+            <textarea name="" id="" cols="30" rows="5" placeholder="¿Qué piensas?"></textarea>
           </div>
 
-          <button type="submit">Enviar</button>
+          <button type="submit">ENVIAR</button>
         </form>
       </section>
     </main>
 
-    <footer>
-      <section>
-        <a href="https://www.instagram.com/jotade.abd/" target="_blank">instagram</a>
-        <a href="https://www.behance.net/Jotade_Abd" target="_blank">behance</a>
-        <a href="">tiktok</a>
-      </section> 
+    <footer> 
       <h5 class="piePagina">© Juan Diego Abad 2023</h5>
     </footer>
 
