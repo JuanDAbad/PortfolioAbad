@@ -1,3 +1,4 @@
+/* Inicio Footer */
 footer {
   @include bloqueFlex(row, center, center);
   background-color: rgba(150, 150, 150, 0.849);
@@ -8,3 +9,4 @@ footer {
     font-size: 20px;
   }
 }
+/* Fin Footer */

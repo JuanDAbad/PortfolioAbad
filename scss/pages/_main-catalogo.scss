@@ -1,3 +1,4 @@
+/* Inicio Main */
 main {
   section.destacados {
     @include bloqueFlex(column, center, center);
@@ -172,4 +173,4 @@ main {
     }
   }
 }
-
+/* Fin Main */

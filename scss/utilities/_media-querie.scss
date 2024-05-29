@@ -1,3 +1,4 @@
+  /* Inicio MediaQuerie */
 @media screen and (min-width: 701px) and (max-width: 1024px) {
     main section.destacados section.galeria {
       display: grid;
@@ -20,11 +21,7 @@
     }
   
     h1 {
-      font-family: "Amatic SC", sans-serif;
-      font-weight: 800;
-      font-style: normal;
-      color: rgb(19, 30, 90);
-      font-size: 60px;
+      @include estiloLetra($estiloNombrePrincipal, 800, normal, 60px, rgb(19, 30, 90) );
       display: flex;
       margin: 20px;
     }
@@ -68,11 +65,7 @@
     }
   
     h1 {
-      font-family: "Amatic SC", sans-serif;
-      font-weight: 800;
-      font-style: normal;
-      color: rgb(19, 30, 90);
-      font-size: 40px;
+      @include estiloLetra($estiloNombrePrincipal, 800, normal, 40px, rgb(19, 30, 90) );
       display: flex;
       margin: 20px;
     }
@@ -117,4 +110,4 @@
       margin: auto;
     }
   }
-  
+  /* Fin MediaQuerie */

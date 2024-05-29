@@ -1,3 +1,4 @@
+/* Inicio Reset */
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Staatliches&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Pragati+Narrow:wght@400;700&family=Staatliches&display=swap");
@@ -7,6 +8,11 @@
   box-sizing: border-box;
 }
 
+/* Fin Reset */
+/* Inicio Variables */
+/* Fin Variables */
+/* Inicio Mixin */
+/* Fin Mixin */
 nav {
   padding: 10px;
   justify-content: center;
@@ -44,6 +50,7 @@ h2:hover {
   height: 100%;
 }
 
+/* Inicio keyframes */
 @keyframes giroTitulo {
   20% {
     transform: rotate(15deg);
@@ -82,6 +89,8 @@ button:hover {
   animation-duration: 2s;
 }
 
+/* Fin Keyframes */
+/* Inicio Header */
 header {
   display: flex;
   flex-direction: column;
@@ -128,6 +137,8 @@ header nav.contenedor-navegador div div div.navegador a.current {
   color: #e36b2c;
 }
 
+/* Fin Header */
+/* Inicio Footer */
 footer {
   display: flex;
   flex-direction: row;
@@ -141,6 +152,8 @@ footer .piePagina {
   font-size: 20px;
 }
 
+/* Fin Footer */
+/* Inicio Main */
 main section.destacados {
   display: flex;
   flex-direction: column;
@@ -313,6 +326,8 @@ main .sectionExtras .video1 {
   height: 100%;
 }
 
+/* Fin Main */
+/* Inicio MediaQuerie */
 @media screen and (min-width: 701px) and (max-width: 1024px) {
   main section.destacados section.galeria {
     display: grid;
@@ -333,8 +348,8 @@ main .sectionExtras .video1 {
     font-family: "Amatic SC", sans-serif;
     font-weight: 800;
     font-style: normal;
-    color: rgb(19, 30, 90);
     font-size: 60px;
+    color: rgb(19, 30, 90);
     display: flex;
     margin: 20px;
   }
@@ -369,8 +384,8 @@ main .sectionExtras .video1 {
     font-family: "Amatic SC", sans-serif;
     font-weight: 800;
     font-style: normal;
-    color: rgb(19, 30, 90);
     font-size: 40px;
+    color: rgb(19, 30, 90);
     display: flex;
     margin: 20px;
   }
@@ -403,5 +418,6 @@ main .sectionExtras .video1 {
     margin: auto;
   }
 }
+/* Fin MediaQuerie */
 
 /*# sourceMappingURL=styles.css.map */

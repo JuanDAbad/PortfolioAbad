@@ -1,4 +1,4 @@
-
+/* Inicio Header */
 header {
     @include bloqueFlex(column, center, center);
     background-color: $colorHeader;
@@ -48,3 +48,4 @@ header {
         }
     }
 }
+/* Fin Header */
