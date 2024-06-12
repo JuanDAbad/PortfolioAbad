@@ -225,6 +225,7 @@ main section.slider div .miClaseTxtSecund h3.tituloSlider {
   font-style: normal;
   font-size: 40px;
   color: black;
+  text-align: center;
 }
 main .mainPerfil {
   display: flex;

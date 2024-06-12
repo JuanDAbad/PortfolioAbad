@@ -80,6 +80,7 @@ main {
 
         h3.tituloSlider {
           @include estiloLetra($estiloTituloSlider, 400, normal, 40px, black);
+          text-align: center;
         }
       }
     }
